@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg-primary: #141C33;
+  --color-bg-secondary: #5878db;
+  --color-fg: oklch(0.95 0.01 250);
+
+  --rounded-full: 9999999px;
+
+  /*font-family: 'JetBrains Mono', monospace;*/
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  background-color: var(--color-bg-primary);
+}
+
+h1 {
+}

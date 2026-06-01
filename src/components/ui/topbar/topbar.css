@@ -1,0 +1,16 @@
+.top-bar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100px;
+
+    background: var(--color-bg-primary);
+    color: var(--color-fg);
+
+    border-color: white;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+
