@@ -14,3 +14,21 @@
     border-radius: var(--rounded-full);
     padding: 10px;
 }
+
+.tag.success {
+    color: var(--color-bg-success);
+    background-color: color-mix(in oklab,var(--color-bg-success) 5%,transparent);
+    border: solid 2px color-mix(in oklab,var(--color-bg-success) 30%,transparent);
+}
+
+.tag.warning {
+    color: var(--color-bg-warning);
+    background-color: color-mix(in oklab,var(--color-bg-warning) 5%,transparent);
+    border: solid 2px color-mix(in oklab,var(--color-bg-warning) 30%,transparent);
+}
+
+.tag.error {
+    color: var(--color-bg-error);
+    background-color: color-mix(in oklab,var(--color-bg-error) 5%,transparent);
+    border: solid 2px color-mix(in oklab,var(--color-bg-error) 30%,transparent);
+}

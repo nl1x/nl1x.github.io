@@ -1,16 +1,17 @@
-import TopBar from "./components/ui/topbar/topbar.tsx";
-import Tag from "./components/ui/tag/tag.tsx";
-
+import Header from "./sections/header/header.tsx";
+import About from "./sections/about/about.tsx";
+import Projects from "./sections/projects/projects.tsx";
+import Skills from "./sections/skills/skills.tsx";
+import Contact from "./sections/contact/contact.tsx";
 
 function App() {
   return (
     <>
-      <div>
-        <TopBar
-          left={<Tag>In progress...</Tag>}
-          center={<h1>nL1x's portfolio</h1>}
-        />
-      </div>
+      <Header/>
+      <About/>
+      <Projects/>
+      <Skills/>
+      <Contact/>
     </>
   )
 }

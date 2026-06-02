@@ -12,6 +12,16 @@
     border-radius: 9999px;
 }
 
+.dot.success {
+    background: var(--color-bg-success);
+}
+.dot.warning {
+    background: var(--color-bg-warning);
+}
+.dot.error {
+    background: var(--color-bg-error);
+}
+
 .dot::after {
     content: "";
     position: absolute;
