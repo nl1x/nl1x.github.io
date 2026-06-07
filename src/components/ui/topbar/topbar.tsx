@@ -1,4 +1,4 @@
-import './topbar.css';
+import './topbar.pcss';
 import React from "react";
 
 interface TopBarProps {
@@ -10,10 +10,10 @@ interface TopBarProps {
 
 function TopBar(props: TopBarProps) {
   return (
-    <div className={`topbar ${props.className ?? ''} grid grid-cols-3 gap-4 h-(--topbar-height) text-center items-center`}>
-      <div className="left ml-10">{props.left}</div>
-      <div className="center ml-10 mr-10">{props.center}</div>
-      <div className="right right-0 mr-10">{props.right}</div>
+    <div className={`topbar ${props.className ?? ''}`}>
+      <div className="topbar-left">{props.left}</div>
+      <div className="topbar-center">{props.center}</div>
+      <div className="topbar-right">{props.right}</div>
     </div>
   )
 }

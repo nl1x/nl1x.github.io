@@ -1,0 +1,40 @@
+:root {
+    --text-h1-desktop: 6rem;
+    --text-h2-desktop: 5rem;
+    --text-h3-desktop: 4rem;
+    --text-h4-desktop: 3rem;
+    --text-h5-desktop: 2rem;
+    --text-h6-desktop: 1rem;
+    --text-p-desktop: 1rem;
+
+    --text-h1-mobile: 8vw;
+    --text-h2-mobile: 7vw;
+    --text-h3-mobile: 6vw;
+    --text-h4-mobile: 5vw;
+    --text-h5-mobile: 4vw;
+    --text-h6-mobile: 3vw;
+    --text-p-mobile: 4vw;
+
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1 { font-size: var(--text-h1-mobile); }
+h2 { font-size: var(--text-h2-mobile); }
+h3 { font-size: var(--text-h3-mobile); }
+h4 { font-size: var(--text-h4-mobile); }
+h5 { font-size: var(--text-h5-mobile); }
+h6 { font-size: var(--text-h6-mobile); }
+p  { font-size: var(--text-p-mobile);  }
+
+@media (--media-lg) {
+    h1 { font-size: var(--text-h1-desktop); }
+    h2 { font-size: var(--text-h2-desktop); }
+    h3 { font-size: var(--text-h3-desktop); }
+    h4 { font-size: var(--text-h4-desktop); }
+    h5 { font-size: var(--text-h5-desktop); }
+    h6 { font-size: var(--text-h6-desktop); }
+    p  { font-size: var(--text-p-desktop);  }
+}

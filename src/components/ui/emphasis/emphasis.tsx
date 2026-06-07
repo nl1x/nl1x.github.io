@@ -1,4 +1,4 @@
-import './emphasis.css';
+import './emphasis.pcss';
 import React from 'react';
 
 interface EmphasisProps {

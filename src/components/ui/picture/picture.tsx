@@ -1,4 +1,4 @@
-import './picture.css';
+import './picture.pcss';
 
 interface PictureProps {
   className?: string | undefined;

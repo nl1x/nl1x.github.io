@@ -1,5 +1,5 @@
 import React from 'react';
-import './link.css';
+import './link.pcss';
 
 interface LinkProps {
   children: React.ReactNode;
@@ -10,7 +10,7 @@ interface LinkProps {
 function Link(props: LinkProps) {
   return (
     <a
-      className="link opacity-75 select-none cursor-pointer hover:opacity-100 transition-opacity duration-300 ease-in-out uppercase w-fit"
+      className="link"
       href={props.href}
       onClick={props.onClick}
     >

@@ -1,3 +1,5 @@
+import './projects.pcss';
+
 function Projects() {
   return (
     <section id="projects" className="section">Project</section>

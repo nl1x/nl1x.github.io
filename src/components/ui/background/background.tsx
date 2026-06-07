@@ -1,4 +1,4 @@
-import './background.css';
+import './background.pcss';
 
 function Background() {
   return (

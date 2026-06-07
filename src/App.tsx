@@ -10,10 +10,10 @@ function App() {
     <>
       <Background/>
       <Header/>
-      <About/>
-      <Projects/>
-      <Skills/>
-      <Contact/>
+      {/*<About/>*/}
+      {/*<Projects/>*/}
+      {/*<Skills/>*/}
+      {/*<Contact/>*/}
     </>
   )
 }

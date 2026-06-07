@@ -1,4 +1,4 @@
-import './dot.css';
+import './dot.pcss';
 
 interface DotProps {
   color?: "success" | "warning" | "error";

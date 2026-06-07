@@ -1,4 +1,4 @@
-import './tag.css'
+import './tag.pcss'
 import React from 'react';
 
 import Dot from "../dot/dot";

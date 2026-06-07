@@ -1,0 +1,38 @@
+:root {
+  --color-bg-primary: #141C33;
+  --color-bg-secondary: #5878db;
+  --color-bg-success: #58db63;
+  --color-fg-success: #88db8f;
+  --color-bg-warning: #db9358;
+  --color-fg-warning: #dbad88;
+  --color-bg-error: #db5858;
+  --color-fg-error: #db8888;
+  --color-fg: oklch(0.95 0.01 250);
+  --color-fg-emphasis: var(--color-bg-secondary);
+  --color-border-section: rgba(255, 255, 255, 0.1);
+
+  --rounded-full: 9999999px;
+
+  --background-start: -125dvh;
+  --topbar-height: 100px;
+}
+
+body {
+  width: 100svw;
+  height: 100svh;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-margin-top: var(--topbar-height);
+  padding: clamp(20px, 10svh, 100px) 0;
+  border-bottom: solid 1px var(--color-border-section);
+}
+
+section:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
