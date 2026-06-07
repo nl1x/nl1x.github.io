@@ -1,0 +1,10 @@
+.picture {
+    object-fit: contain;
+    height: clamp(500px, 80svw, min(50svh, 80svw));
+    width: clamp(500px, 80svw, min(50svh, 80svw));
+
+    padding: 10px;
+    border: 3px solid var(--color-bg-primary); /* Ton bleu par exemple */
+
+    border-image: linear-gradient(135deg, transparent 40%, rgb(88 120 219 / 0.5) 40%, rgb(88 120 219 / 0.5) 60%, transparent 60%) 1;
+}

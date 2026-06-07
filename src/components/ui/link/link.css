@@ -1,7 +1,6 @@
 .link {
     position: relative;
     display: inline-block;
-    cursor: pointer;
 }
 
 .link::after {

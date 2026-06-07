@@ -1,0 +1,28 @@
+.button {
+    padding: 15px 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: fit-content;
+
+    .button-text {
+        font-size: var(--font-size-button);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &.primary {
+        background-color: var(--color-bg-secondary);
+        color: var(--color-bg-primary);
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+    }
+
+    &.secondary {
+        border: solid 0.1mm rgba(255, 255, 255, 0.2);
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    }
+}
