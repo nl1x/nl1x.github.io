@@ -18,10 +18,10 @@ function Button(props: ButtonProps) {
       target={props.noredirect ? '_blank' : ''}
       rel={props.noredirect ? 'noopener noreferrer' : ''}
       download={props.download}
-      className={`button flex flex-row gap-4 items-center cursor-pointer select-none ${props.style ?? 'primary'}`}
+      className={`button ${props.style ?? 'primary'}`}
     >
-      {props.icon && <div className="icon shrink-0">{props.icon}</div>}
-      <p className="button-text text-center flex-1 min-w-0">
+      {props.icon && <div className="button-icon">{props.icon}</div>}
+      <p className="button-text">
         {props.children}
       </p>
     </a>

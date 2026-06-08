@@ -1,15 +1,27 @@
 .button {
-    padding: 15px 35px;
-    text-transform: uppercase;
-    font-weight: bold;
-    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 
-    .button-text {
+    justify-items: center;
+    align-items: center;
+    width: fit-content;
+    padding: 5px 20px;
+    text-decoration: none;
+
+    //padding: 15px 35px;
+    //text-transform: uppercase;
+    //font-weight: bold;
+    //width: fit-content;
+
+    /* flex flex-row gap-4 items-center cursor-pointer select-none */
+
+    /*.button-text {
         font-size: var(--font-size-button);
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-    }
+    }*/
 
     &.primary {
         background-color: var(--color-bg-secondary);

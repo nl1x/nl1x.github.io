@@ -1,3 +1,27 @@
-section#about .hero-text {
-    width: clamp(450px, 45svw, 750px);
+section#about .hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .hero-text {
+        text-align: center;
+        width: 80svw;
+    }
+
+    .hero-logo {
+        width: 80svw;
+        height: 80svw;
+    }
+
+    .hero-buttons {
+        width: 80svw;
+    }
+
+    @media (--media-lg) {
+        .hero-logo {
+            width: 30svw;
+            height: 30svw;
+        }
+    }
+
 }

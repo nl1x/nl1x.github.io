@@ -10,17 +10,18 @@ function About() {
       <div className="hero">
         <div className="hero-text">
           <div className="hero-title">
-            <h2><Emphasis italic>Pentesteur junior</Emphasis></h2>
-            <h2>et développeur</h2>
-            <h2><Emphasis italic>Full-Stack</Emphasis>.</h2>
+            <h2><Emphasis italic>Pentesteur junior</Emphasis>
+              <br/>et développeur
+              <br/><Emphasis italic>Full-Stack</Emphasis>.
+            </h2>
           </div>
           <p className="hero-description">Passionné d'informatique depuis plusieurs années, je suis prêt à vous accompagner dans la création, le déploiement et la sécurisation de vos infrastructures logicielles.</p>
-          <div className="hero-buttons">
-            <Button icon={<RxDownload/>} download={"CV_Nathan-Jeannot_2026.pdf"} href="./CV_Nathan-Jeannot_2026.pdf" style='primary'>CV_Nathan-Jeannot_2026.pdf</Button>
-            <Button href="https://github.com/nl1x" noredirect icon={<RxGithubLogo/>} style='secondary'>Profil Github</Button>
-          </div>
         </div>
-        <Picture url="me.jpg" alt="my-picture"/>
+        <Picture className="hero-logo" url="me.jpg" alt="my-picture"/>
+        {/*<div className="hero-buttons">*/}
+        {/*  <Button icon={<RxDownload/>} download={"CV_Nathan-Jeannot_2026.pdf"} href="./CV_Nathan-Jeannot_2026.pdf" style='primary'>CV_Nathan-Jeannot_2026.pdf</Button>*/}
+        {/*  <Button href="https://github.com/nl1x" noredirect icon={<RxGithubLogo/>} style='secondary'>Profil Github</Button>*/}
+        {/*</div>*/}
       </div>
     </section>
   )
