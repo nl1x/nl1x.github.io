@@ -9,12 +9,9 @@ interface LinkProps {
 
 function Link(props: LinkProps) {
   return (
-    <a
-      className="link"
-      href={props.href}
-      onClick={props.onClick}
-    >
-      {props.children}
+    <a className="link" href={props.href} onClick={props.onClick}>
+      <span className="link-dollar">$</span>
+      <span className="link-text">{props.children}</span>
     </a>
   )
 }
