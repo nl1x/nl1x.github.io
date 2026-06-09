@@ -1,8 +1,8 @@
 import './about.pcss';
 import Picture from "../../components/ui/picture/picture.tsx";
 import Emphasis from "../../components/ui/emphasis/emphasis.tsx";
-import Button from "../../components/ui/button/button.tsx";
-import { RxDownload, RxGithubLogo } from "react-icons/rx";
+// import Button from "../../components/ui/button/button.tsx";
+// import { RxDownload, RxGithubLogo } from "react-icons/rx";
 
 function About() {
   return (
