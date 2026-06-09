@@ -1,7 +1,12 @@
 section#about .hero {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+    }
 
     .hero-text {
         text-align: center;
@@ -14,13 +19,40 @@ section#about .hero {
     }
 
     .hero-buttons {
-        width: 80svw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        gap: 20px;
+
+        > .button {
+            width: 70svw;
+        }
     }
 
-    @media (--media-lg) {
+    @media (--media-md) {
         .hero-logo {
             width: 30svw;
             height: 30svw;
+            margin-left: 20px;
+            align-self: center;
+        }
+
+        .hero-content {
+            flex-direction: row;
+            width: 80svw;
+        }
+
+        .hero-text {
+            text-align: right;
+        }
+
+        .hero-buttons {
+            flex-direction: row;
+
+            > .button {
+                width: fit-content;
+            }
         }
     }
 
