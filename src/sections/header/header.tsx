@@ -10,7 +10,7 @@ function Header() {
       className="header"
 
       left={ <Tag onClick={() => scrollTo("contact")} variant="success">AVAILABLE</Tag> }
-      center={ <h6>Nathan JEANNOT</h6> }
+      // center={ <h6>Nathan JEANNOT</h6> }
       right={
         <BurgerButton links={[
           { label: 'Contact', section: 'contact' },
