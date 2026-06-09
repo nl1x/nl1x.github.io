@@ -12,7 +12,7 @@ function TopBar(props: TopBarProps) {
   return (
     <div className={`topbar ${props.className ?? ''}`}>
       <div className="topbar-left">{props.left}</div>
-      <div className="topbar-center">{props.center}</div>
+      {/*<div className="topbar-center">{props.center}</div>*/}
       <div className="topbar-right">{props.right}</div>
     </div>
   )
