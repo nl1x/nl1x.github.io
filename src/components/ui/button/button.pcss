@@ -1,22 +1,33 @@
 .button {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 15px;
 
     justify-items: center;
     align-items: center;
     width: fit-content;
-    padding: 5px 20px;
+    padding: 2px 20px;
     text-decoration: none;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-weight: bold;
 
-    /* flex flex-row gap-4 items-center cursor-pointer select-none */
+    > a:active, > a:visited, > a:hover {
+        text-decoration: none;
+    }
 
-    /*.button-text {
-        font-size: var(--font-size-button);
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }*/
+    .button-text {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .button-icon {
+        display: flex;
+        justify-self: center;
+        width: fit-content;
+        font-size: calc(var(--text-p) * 1.5);
+    }
 
     &.primary {
         background-color: var(--color-bg-secondary);
@@ -27,6 +38,7 @@
     }
 
     &.secondary {
+        color: white;
         border: solid 0.1mm rgba(255, 255, 255, 0.2);
         &:hover {
             background-color: rgba(255, 255, 255, 0.1);
